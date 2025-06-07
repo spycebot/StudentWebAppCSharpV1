@@ -1,0 +1,11 @@
+﻿/* CREATE TABLE [dbo].[Table]
+(
+	[Id] INT NOT NULL PRIMARY KEY
+) */
+
+CREATE TABLE Students (
+	Id INT PRIMARY KEY IDENTITY(1, 1),
+	Name NVARCHAR(100),
+	Email NVARCHAR(100),
+	Course NVARCHAR(100)
+)
