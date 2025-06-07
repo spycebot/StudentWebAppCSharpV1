@@ -32,7 +32,8 @@ namespace StudentWebAppCSharpV1
                 {
                     Session["user"] = txtUsername.Text;
                     Session["role"] = role.ToString();
-                    Response.Redirect("StudentForm.aspx");
+                    //Response.Redirect("StudentForm.aspx");
+                    Response.Redirect("MainMenu.aspx");
                 }
                 else
                 {
